@@ -47,7 +47,7 @@ const router = createBrowserRouter(
 			/>
 			<Route
 				path="*"
-				element={<div>NOT FOUND</div>}
+				element={<div className="text-center font-bold text-red-600 text-7xl py-52 h-full">PAGE NOT FOUND</div>}
 			/>
 		</Route>
 	)
