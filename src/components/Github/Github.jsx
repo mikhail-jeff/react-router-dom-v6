@@ -19,7 +19,7 @@ const Github = () => {
 	console.log(data);
 
 	return (
-		<div className="text-center m-4 bg-gray-600 text-white p-4 text-3xl">
+		<div className="text-center m-4 bg-gray-600 text-white p-4 text-3xl dark:bg-gray-800">
 			<div className="rounded-full w-40 h-40 mx-auto overflow-hidden mt-5">
 				<img
 					src={data.avatar_url}
